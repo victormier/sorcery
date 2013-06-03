@@ -39,6 +39,7 @@ module Sorcery
           autoload :Linkedin, 'sorcery/controller/submodules/external/providers/linkedin'
           autoload :Vk, 'sorcery/controller/submodules/external/providers/vk'
           autoload :Xing, 'sorcery/controller/submodules/external/providers/xing'
+          autoload :Instagram, 'sorcery/controller/submodules/external/providers/instagram'
         end
       end
     end
