@@ -67,7 +67,7 @@ Rails.application.config.sorcery.configure do |config|
 
 
   # -- external --
-  # What providers are supported by this app, i.e. [:twitter, :facebook, :github, :linkedin, :xing, :google, :liveid] .
+  # What providers are supported by this app, i.e. [:twitter, :facebook, :github, :linkedin, :xing, :google, :liveid, :instagram] .
   # Default: `[]`
   #
   # config.external_providers =
@@ -138,6 +138,11 @@ Rails.application.config.sorcery.configure do |config|
   # config.liveid.secret = ""
   # config.liveid.callback_url = "http://mydomain.com:3000/oauth/callback?provider=liveid"
   # config.liveid.user_info_mapping = {:username => "name"}
+  #
+  # config.instagram.key = ""
+  # config.instagram.secret = ""
+  # config.instagram.callback_url = "http://mydomain.com:3000/oauth/callback?provider=instagram"
+  # config.instagram.user_info_mapping = { username: 'username' }
 
 
   # --- user config ---
